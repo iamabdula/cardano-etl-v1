@@ -4,7 +4,7 @@ services:
     image: apache/airflow:2.5.0
     environment:
       - AIRFLOW__CORE__EXECUTOR=SequentialExecutor
-      - AIRFLOW__CORE__FERNET_KEY=I2oy2tTyQJ3VO5togMgMzHxIQeHjojmivocv5oVla3o=
+      - AIRFLOW__CORE__FERNET_KEY=INSERT_YOUR_KEY_HERE
       - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=True
       - AIRFLOW__CORE__LOAD_EXAMPLES=False
     volumes:
@@ -20,7 +20,7 @@ services:
     image: apache/airflow:2.5.0
     environment:
       - AIRFLOW__CORE__EXECUTOR=SequentialExecutor
-      - AIRFLOW__CORE__FERNET_KEY=I2oy2tTyQJ3VO5togMgMzHxIQeHjojmivocv5oVla3o=
+      - AIRFLOW__CORE__FERNET_KEY=INSERT_YOUR_KEY_HERE
       - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=True
       - AIRFLOW__CORE__LOAD_EXAMPLES=False
     volumes:
