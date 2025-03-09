@@ -139,3 +139,5 @@ PYTHONPATH=. pytest tests/
   Initialize the Airflow database if needed.
   Access the Airflow UI at http://localhost:8080, log in, and trigger the pipeline.
   Verify output files in the designated output folder.
+
+![image](https://github.com/user-attachments/assets/7049be94-a889-40b8-a0c4-8496d742035b)
